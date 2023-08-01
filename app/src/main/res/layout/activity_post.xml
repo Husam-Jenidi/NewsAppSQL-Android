@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postActivity"
+    android:background="@drawable/pattern_design"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cover"
+            />
+        <TextView
+            android:focusableInTouchMode="true"
+            android:hint="headline"
+            android:textStyle="bold"
+            android:id="@+id/postHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+            android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            >
+
+            <TextView
+
+            android:hint="source"
+            android:textStyle="bold"
+            android:id="@+id/source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:textSize="15dp"
+            android:textColor="#000000"/>
+        <TextView
+
+            android:hint="22-7-2023"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+
+            android:textColor="#000000"/>
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/smile"/>
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="10"
+                />
+    </LinearLayout>
+            <TextView
+                android:id="@+id/postContentTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#000000"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+                >
+        <EditText
+            android:focusableInTouchMode="true"
+            android:id="@+id/commentEditText"
+                android:hint="Add your comment here.."
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"/>
+
+               <Button
+                   android:id="@+id/commentBtn"
+                   style="@style/CardView.Dark"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:backgroundTint="@color/ash_gray"
+                   android:text="comment"
+                   app:cornerRadius="0dp"
+                   />
+               <ImageView
+                   android:id="@+id/likeBtn"
+                   android:src="@drawable/like"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+           </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/commentRecycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

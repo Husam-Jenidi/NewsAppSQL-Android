@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_color">#FF0000</color>
+    <color name="button_crystal_blue">#3B28CC</color>
+    <color name="button_neon_blue">#2667FF</color>
+    <color name="button_chch_blue">#3F8EFC</color>
+    <color name="button_jordy_blue">#87BFFF</color>
+    <color name="button_uranian_blue">#ADD7F6</color>
+    <color name="light_blue">#BBE5ED</color>
+
+    BBE5ED
+    <color name="dark_purple">#2E0219</color>
+    <color name="tyrian_purple">#4A001F</color>
+    <color name="tyrian_purple2">#6A0F49</color>
+    <color name="ash_gray">#A7C4C2</color>
+    <color name="ice_blue">#97EFE9</color>
+        <color name="colorPrimary">#1F5BF3</color>
+        <color name="colorPrimaryDark">#0947E8</color>
+        <color name="colorAccent">#00A5FF</color>
+
+        <!--colors for modern ui-->
+        <color name="whiteTextColor">#fff</color>
+        <color name="primaryTextColor">#00a5ff</color>
+        <color name="loginBkColor">#f0f0f0</color>
+
+        <!--colros for card-->
+        <color name="whiteCardColor">#fff</color>
+
+
+</resources>
